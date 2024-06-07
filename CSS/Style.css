@@ -1,4 +1,51 @@
+P {
+    color: red;
+    /*SE USA COMILLAS CUANDO HAY UN ESPACIO, SINO SE PUEDE PONER DIRECTAMENTE*/
+    font-family: Anton;
+    font-size: 20px;
+    /*negritas*/
+    font-weight: bold; /*bold es lo mismo que 700*/
+    font-weight: 700; 
+    font-weight: bolder; /*iria al siguiente escalon, si es 700 entonces 800*/
+
+    /*cursivas*/
+    font-style: normal;
+    font-style: italic; /*cursiva*/
+    font-style: oblique; /*cursiva menos inclinada*/
+
+    text-align: right;
+    text-align: center;
+    text-align: left;
+    text-align: justify; /*alinea todos los elemenos para que ocupe de principio a fin de la caja*/
+
+    text-decoration: none;
+    text-decoration: underline; /*subrayado*/
+    text-decoration: overline; /*subraya por arriba*/
+    text-decoration: line-through; /*nos tacha el texto*/
+    text-decoration: overline underline;
+
+    line-height: 1.5; /*espaciado entre lineas*/
+
+    letter-spacing: 5px; /*espaciado entre letras*/
+
+    text-transform: none; /**/
+    text-transform: uppercase; /*letras en mayuscula*/
+    text-transform: lowercase; /*letras en minuscula*/
+    text-transform: capitalize; /*primera letra en mayus*/
+
+    text-shadow: 0px 0px 3px red;
+    
+
+}
+
+
+
 ol {
     display: inline-block;
     margin: 0 20px; /* Agrega un margen entre las listas */
-  }
+}
+
+.subtitulo {
+    color : blueviolet;
+}
+

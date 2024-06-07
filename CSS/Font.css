@@ -1,0 +1,4 @@
+@font-face {
+    font-family: "Anton"; /*se puede poner cualquier    nombre, pero es mejor poner el nombre de la fuente*/
+    src: url("Anton-Regular.ttf") format(truetype);
+}
